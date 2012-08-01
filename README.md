@@ -5,7 +5,7 @@ Interpreter of a very simple language, working on a set of four variables (A, B,
     V = A
     V += A
     V -= A
-    V \*= C
+    V *= C
 
 Where V is any variable, C is a constant and A is either variable or a constant.
 It also supports loops, for example
@@ -16,7 +16,7 @@ It also supports loops, for example
     end
     end
 
-(here first end ends the loop and the second end ends the program) will compute 2 to the power of 100.
+(here first `end` ends the loop and the second `end` ends the program) will compute 2 to the power of 100.
 The interesting thing about this interpreter is that it performs loops in O(log N) operations, where N is the number of iterations. For example the following code will compute the sum of first 10^18 numbers:
 
     loop 1000000000
