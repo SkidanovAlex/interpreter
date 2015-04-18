@@ -1,5 +1,13 @@
 interpreter
 ===========
+This is the code for the article originally published on habrahabr:
+
+http://habrahabr.ru/post/148901/
+
+There's an english version of the article:
+
+http://kukuruku.co/hub/algorithms/using-the-quick-raise-of-matrices-to-power-to-write-a-very-fast-interpreter-of-a-simple-programming-language
+
 Interpreter of a very simple language, working on a set of four variables (A, B, C and D) and supporting the following set of operations:
 
     V = A
